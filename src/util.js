@@ -25,8 +25,7 @@ var util = {
                     })
                 } else
                     cbSuccess(data.data)
-            }
-                .bind(this),
+            }.bind(this),
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 message.error(<span><b>=Request Error=</b><br />[API] {opts.api}<br /> {textStatus}</span>)
             }.bind(this),
