@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+    margin: 0 30px;
+    color: '#eee';
+}
+
+.normalLayout {
+    height: 100%;
+    background-color: #eeefef;
+}
+.normalLayout .toolBar {
+    padding: 0px;
+    margin: 10px 10px 0px 10px;
+    background-color: #eee;
+    line-height: 1;
+    height: auto;
+}
+
+.normalLayout .header{
+    height: auto;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    line-height: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.normalLayout .content{
+    height: 100px;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px 10px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.normalLayout .footer{
+    height: auto;
+    padding: 0;
+    margin: 0px 10px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.ant-table-body td{
+    max-width: 1px;
+    max-height:30px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.selectedRow{
+    color: #04b;
+    background-color: #ffb;
+}
+
+.appForm{
+}
+
+.form-item {
+    display:block;
+    float: left;
+    margin: 2px 0;
+    width: auto;
+    line-height: 36px;
+}
+.form-item-control{
+    float: left;
+}
+
+.form-item-label{
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    line-height: 36px;
+    margin: 5px 15px 0 0px;
+}
+
+.clear{
+    clear: both;
+}
